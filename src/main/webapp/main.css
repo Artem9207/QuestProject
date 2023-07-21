@@ -1,0 +1,53 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: "Arial", sans-serif;
+}
+
+h1 {
+    color: #ff6600;
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+pre {
+    font-family: "Courier New", monospace;
+    word-wrap: break-word; /* Текст будет обрезаться и переноситься на новую строку */
+    white-space: pre-wrap; /* Перенос строки сохраняется, но пробелы сохраняются */
+    font-size: 18px;
+}
+
+button {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff6600;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.attempts {
+    font-size: 14px;
+    color: #999;
+}
+
+
+button:hover {
+    background-color: #004d00;
+}
+
